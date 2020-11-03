@@ -1,2 +1,4 @@
-build_vocab.sh
-cut_vocab.sh
+data
+twitter-datasets
+44de36bd-8ac8-4f1e-b568-1da3eec926aa_sample_submission.txt
+44de36bd-8ac8-4f1e-b568-1da3eec926aa_sample_submission.csv
