@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from helpers import *
 from scipy.sparse import *
 import numpy as np
 import pickle
@@ -7,7 +8,7 @@ import random
 
 def main():
     print("loading cooccurrence matrix")
-    with open('cooc.pkl', 'rb') as f:
+    with open(vocab_data_path('cooc.pkl'), 'rb') as f:
         cooc = pickle.load(f)
     print("{} nonzero entries".format(cooc.nnz))
 
@@ -27,10 +28,9 @@ def main():
     for epoch in range(epochs):
         print("epoch {}".format(epoch))
         for ix, jy, n in zip(cooc.row, cooc.col, cooc.data):
-
-			# fill in your SGD code here, 
-			# for the update resulting from co-occurence (i,j)
-		
+            continue
+            # fill in your SGD code here,
+            # for the update resulting from co-occurence (i,j)
 
     np.save('embeddings', xs)
 
