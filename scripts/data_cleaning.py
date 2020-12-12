@@ -344,16 +344,16 @@ def preprocess_tweet(tweet):
     # I ran the model 4 times without it, nd 4 times without it.
     #
     # It consistently increased the overall score.
-    # processed_tweet = reduce_chars(processed_tweet)
-    # processed_tweet = replace_numbers(processed_tweet)
-    # processed_tweet = decontracted(processed_tweet, CONTRACTION_DIC)
+    processed_tweet = reduce_chars(processed_tweet)
+    processed_tweet = replace_numbers(processed_tweet)
+    processed_tweet = decontracted(processed_tweet, CONTRACTION_DIC)
 
     # No visible impact.
-    # processed_tweet = delete_punctuation(processed_tweet)
+    processed_tweet = delete_punctuation(processed_tweet)
 
     # Negative impact on the validation accuracy!
-    # processed_tweet = delete_user_and_url(processed_tweet)
-    # processed_tweet = remove_stopwords(processed_tweet)
-    # processed_tweet = reduce_spaces(processed_tweet)
+    processed_tweet = delete_user_and_url(processed_tweet)
+    processed_tweet = remove_stopwords(processed_tweet)
+    processed_tweet = reduce_spaces(processed_tweet)
 
     return processed_tweet

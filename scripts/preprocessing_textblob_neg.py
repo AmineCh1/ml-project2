@@ -3,8 +3,6 @@
 from textblob import TextBlob
 
 counter = 0
-
-# Positive tweets only for now
 tweets = open("train_neg.txt", "r")
 output = open("train_neg_textblob.txt", "w")
 for tweet in tweets:
