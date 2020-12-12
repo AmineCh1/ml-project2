@@ -3,8 +3,8 @@
 from textblob import TextBlob
 
 counter = 0
-tweets = open("../data/train/train_neg.txt", "r")
-output = open("../data/train/train_neg_textblob.txt", "w")
+tweets = open("../data/test/test_data_wo_indices.txt", "r")
+output = open("../data/test/test_data_wo_indices_textblob.txt", "w")
 for tweet in tweets:
     output.write(str(TextBlob(tweet).correct()))
     counter += 1
