@@ -2,6 +2,8 @@
 44de36bd-8ac8-4f1e-b568-1da3eec926aa_sample_submission.txt
 twitter-datasets
 
+data/train/train*full*.txt
+
 predictions/*
 data/glove/*.txt
 
