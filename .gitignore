@@ -1,11 +1,7 @@
 44de36bd-8ac8-4f1e-b568-1da3eec926aa_sample_submission.csv
 44de36bd-8ac8-4f1e-b568-1da3eec926aa_sample_submission.txt
+data
 twitter-datasets
-
-data/train/train*full*.txt
-
-predictions/*
-data/glove/*.txt
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,macos,windows,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks,macos,windows,linux
