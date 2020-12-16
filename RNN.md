@@ -4,14 +4,14 @@
 
 ### Vectorize Layer
 
-* max_tokens
-* output_sequence_length
-* ngrams
+* max_tokens (fixed it to 10'000 - number of words to consider in our vocabulary)
+* output_sequence_length (fixed it to 280, need to try 60)
+* ngrams (1,2,3,4,5)
 
 ### Embedding layer
 
 * custom (trainable) or preprocessed (from GloVe)
-* embedding_dim
+* embedding_dim (64, 100, 200, 300)
 
 ### Kinds of layers: Dropout (right after embedding), GRU Layer, LSTM layer, etc
 
