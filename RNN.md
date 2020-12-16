@@ -48,8 +48,16 @@ Try to add/remove some, and see the impact on accuracy
 # RNN with custom embedding (max_tokens=10'000, embedding_dim = 100, sequence_length = 280) - GRU(50), LSTM(50) -> max at 5th epoch: 0.8146
 # RNN with custom embedding (max_tokens=10'000, embedding_dim = 200, sequence_length = 280) - GRU(50), LSTM(50) -> max at 5th epoch: 0.8103
 # RNN with custom embedding (max_tokens=10'000, embedding_dim = 200, sequence_length = 280) - GRU(200), LSTM(200) -> max at 3rd epoch: 0.8159
-# RNN with custom embedding (max_tokens=15'000, embedding_dim = 200, sequence_length = 280) - GRU(200), LSTM(200) -> max at Xth epoch: XXX
+# RNN with custom embedding (max_tokens=15'000, embedding_dim = 200, sequence_length = 280) - GRU(200), LSTM(200) -> max at 3rd epoch: 0.8154
 #
+# Selected settings -> # RNN with custom embedding (max_tokens=10'000, embedding_dim = 100, sequence_length = 280) - GRU(50), LSTM(50) -> max at 5th epoch: 0.8146
+#
+# Trying it with pre-trained embeddings:
+#
+# RNN with pre-trained embedding (max_tokens=10'000, embedding_dim = 100, sequence_length = 280) - GRU(50), LSTM(50) -> max at Xth epoch: XXX
+#
+#
+# 
 # * Pause to try to generate actual predictions
 # * If good, continue experiments
 # * When done with experiments, generate a full example, and submit to AIcrowd
