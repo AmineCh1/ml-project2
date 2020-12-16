@@ -54,7 +54,9 @@ Try to add/remove some, and see the impact on accuracy
 #
 # Trying it with pre-trained embeddings:
 #
-# RNN with pre-trained embedding (max_tokens=10'000, embedding_dim = 100, sequence_length = 280) - GRU(50), LSTM(50) -> max at Xth epoch: XXX
+# (8 epoch) RNN with pre-trained embedding (max_tokens=10'000, embedding_dim = 100, sequence_length = 280) - GRU(50), LSTM(50) -> max at 8th epoch: 0.8178
+# (16 epoch) RNN with pre-trained embedding (max_tokens=10'000, embedding_dim = 100, sequence_length = 280) - GRU(50), LSTM(50) -> max at 16th epoch: 0.8234
+# (16 epoch) RNN with pre-trained embedding (max_tokens=10'000, embedding_dim = 200, sequence_length = 280) - GRU(50), LSTM(50) -> max at 16th epoch: XXX
 #
 #
 # 
